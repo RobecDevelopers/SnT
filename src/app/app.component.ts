@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'landing',
+  templateUrl: './landing.component.html',
+  styleUrls: ['./landing.component.css']
 })
+
 export class AppComponent {
-  title = 'app';
+  title = 'StakenTake';
+  logo = '';
 }
